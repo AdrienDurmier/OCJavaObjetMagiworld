@@ -22,4 +22,12 @@ public class Rodeur extends Personnage{
         super(niveau, vie, force, agilite, intelligence);
     }
 
+    public void attaqueBasique(Personnage personnage){
+        System.out.println("Tir à l’Arc");
+    }
+
+    public void attaqueSpeciale(Personnage personnage){
+        System.out.println("Concentration");
+    }
+
 }

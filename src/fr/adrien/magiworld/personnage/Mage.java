@@ -22,4 +22,12 @@ public class Mage extends Personnage{
         super(niveau, vie, force, agilite, intelligence);
     }
 
+    public void attaqueBasique(Personnage personnage){
+        System.out.println("Boule de Feu");
+    }
+
+    public void attaqueSpeciale(Personnage personnage){
+        System.out.println("Soin");
+    }
+
 }

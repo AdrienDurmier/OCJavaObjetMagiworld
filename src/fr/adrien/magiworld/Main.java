@@ -13,7 +13,9 @@ public class Main {
         Mage mage001 = new Mage();
         Rodeur rodeur001 = new Rodeur();
 
-        
+        guerrier001.attaqueBasique(mage001);
+        mage001.attaqueBasique(guerrier001);
+        rodeur001.attaqueBasique(guerrier001);
 
     }
 

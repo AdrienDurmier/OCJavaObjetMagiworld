@@ -31,6 +31,10 @@ public abstract class Personnage {
         this.intelligence = intelligence;
     }
 
+    public abstract void attaqueBasique(Personnage personnage);
+
+    public abstract void attaqueSpeciale(Personnage personnage);
+
     public int getNiveau() {
         return niveau;
     }

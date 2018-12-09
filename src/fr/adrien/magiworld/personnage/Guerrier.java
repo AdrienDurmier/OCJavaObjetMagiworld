@@ -22,4 +22,12 @@ public class Guerrier extends Personnage{
         super(niveau, vie, force, agilite, intelligence);
     }
 
+    public void attaqueBasique(Personnage personnage){
+        System.out.println("Coup d’Épée");
+    }
+
+    public void attaqueSpeciale(Personnage personnage){
+        System.out.println("Coup de rage");
+    }
+
 }
