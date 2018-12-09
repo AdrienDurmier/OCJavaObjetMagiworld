@@ -18,14 +18,13 @@ public abstract class Personnage {
      * Constructor with parameters
      *
      * @param niveau
-     * @param vie
      * @param force
      * @param agilite
      * @param intelligence
      */
-    public Personnage(int niveau, int vie, int force, int agilite, int intelligence) {
+    public Personnage(int niveau, int force, int agilite, int intelligence) {
         this.niveau = niveau;
-        this.vie = vie;
+        this.vie = niveau * 5;
         this.force = force;
         this.agilite = agilite;
         this.intelligence = intelligence;

@@ -13,13 +13,12 @@ public class Rodeur extends Personnage{
      * Constructor with parameters
      *
      * @param niveau
-     * @param vie
      * @param force
      * @param agilite
      * @param intelligence
      */
-    public Rodeur(int niveau, int vie, int force, int agilite, int intelligence) {
-        super(niveau, vie, force, agilite, intelligence);
+    public Rodeur(int niveau, int force, int agilite, int intelligence) {
+        super(niveau, force, agilite, intelligence);
     }
 
     /**
@@ -28,7 +27,8 @@ public class Rodeur extends Personnage{
      */
     @Override
     public void attaqueBasique(Personnage personnage){
-        System.out.println("Tir à l’Arc");
+        int degat = super.getAgilite();
+        personnage.setVie(personnage.getVie() - degat);
     }
 
     /**
@@ -37,7 +37,8 @@ public class Rodeur extends Personnage{
      */
     @Override
     public void attaqueSpeciale(Personnage personnage){
-        System.out.println("Concentration");
+        int gainAgilite = super.getNiveau() / 2;
+        super.setAgilite(super.getAgilite() + gainAgilite);
     }
 
 }

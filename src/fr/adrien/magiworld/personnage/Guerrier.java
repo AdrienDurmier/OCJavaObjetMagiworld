@@ -13,13 +13,12 @@ public class Guerrier extends Personnage{
      * Constructor with parameters
      *
      * @param niveau
-     * @param vie
      * @param force
      * @param agilite
      * @param intelligence
      */
-    public Guerrier(int niveau, int vie, int force, int agilite, int intelligence) {
-        super(niveau, vie, force, agilite, intelligence);
+    public Guerrier(int niveau, int force, int agilite, int intelligence) {
+        super(niveau, force, agilite, intelligence);
     }
 
     /**
@@ -28,7 +27,8 @@ public class Guerrier extends Personnage{
      */
     @Override
     public void attaqueBasique(Personnage personnage){
-        System.out.println("Coup d’Épée");
+        int degat = super.getForce();
+        personnage.setVie(personnage.getVie() - degat);
     }
 
     /**
@@ -38,7 +38,10 @@ public class Guerrier extends Personnage{
      */
     @Override
     public void attaqueSpeciale(Personnage personnage){
-        System.out.println("Coup de rage");
+        int degatCible = super.getForce() * 2;
+        personnage.setVie(personnage.getVie() - degatCible);
+        int degatSubit = super.getForce() / 2;
+        super.setVie(personnage.getVie() - degatSubit);
     }
 
 }

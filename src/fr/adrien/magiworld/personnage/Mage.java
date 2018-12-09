@@ -13,13 +13,12 @@ public class Mage extends Personnage{
      * Constructor with parameters
      *
      * @param niveau
-     * @param vie
      * @param force
      * @param agilite
      * @param intelligence
      */
-    public Mage(int niveau, int vie, int force, int agilite, int intelligence) {
-        super(niveau, vie, force, agilite, intelligence);
+    public Mage(int niveau, int force, int agilite, int intelligence) {
+        super(niveau, force, agilite, intelligence);
     }
 
     /**
@@ -28,7 +27,8 @@ public class Mage extends Personnage{
      */
     @Override
     public void attaqueBasique(Personnage personnage){
-        System.out.println("Boule de Feu");
+        int degat = super.getIntelligence();
+        personnage.setVie(personnage.getVie() - degat);
     }
 
     /**
@@ -38,7 +38,8 @@ public class Mage extends Personnage{
      */
     @Override
     public void attaqueSpeciale(Personnage personnage){
-        System.out.println("Soin");
+        int soin = super.getIntelligence();
+        super.setVie(personnage.getVie() + soin);
     }
 
 }
