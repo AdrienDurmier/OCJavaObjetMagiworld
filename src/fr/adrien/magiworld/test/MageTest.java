@@ -20,9 +20,17 @@ class MageTest {
     }
 
     @Test
-    public void GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10(){
+    public void GIVEN_intelligenceEgale10_AND_vieEgale50_WHEN_mageAttaqueSpeciale_THEN_viePlus20(){
+        mage.setVie(50);
         mage.attaqueSpeciale(mage);
-        assertEquals(110, mage.getVie());
+        assertEquals(70, mage.getVie());
+    }
+
+    @Test
+    public void GIVEN_intelligenceEgale10_AND_vieEgale90_WHEN_mageAttaqueSpeciale_THEN_viePlus10(){
+        mage.setVie(90);
+        mage.attaqueSpeciale(mage);
+        assertEquals(100, mage.getVie());
     }
 
 }

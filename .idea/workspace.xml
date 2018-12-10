@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9394d545-2aff-4bb2-bf89-a337563d5dba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/test/GuerrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/test/RodeurTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagiWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MagiWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/fr/adrien/magiworld/personnage/Guerrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/fr/adrien/magiworld/personnage/Guerrier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +60,8 @@
       <file leaf-file-name="Mage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="415">
+              <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#163#164#0" expanded="true" />
@@ -75,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MageTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="432">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rodeur.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rodeur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+            <state relative-caret-position="697">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="e#144#145#0" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
@@ -134,13 +129,13 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console_2.snippet" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java" />
-        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/GuerrierTest.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/test/GuerrierTest.java" />
-        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/test/RodeurTest.java" />
+        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" />
+        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java" />
       </list>
     </option>
   </component>
@@ -243,32 +238,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RodeurTest">
+  <component name="RunManager" selected="JUnit.MageTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="GuerrierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MagiWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.adrien.magiworld.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="fr.adrien.magiworld.test" />
-      <option name="MAIN_CLASS_NAME" value="fr.adrien.magiworld.test.GuerrierTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="MageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MagiWorld" />
@@ -284,6 +256,29 @@
       <option name="MAIN_CLASS_NAME" value="fr.adrien.magiworld.test.MageTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MageTest.GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.adrien.magiworld.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fr.adrien.magiworld.test" />
+      <option name="MAIN_CLASS_NAME" value="fr.adrien.magiworld.test.MageTest" />
+      <option name="METHOD_NAME" value="GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -401,19 +396,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.GuerrierTest" />
       <item itemvalue="JUnit.MageTest" />
       <item itemvalue="JUnit.MageTest.GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus20" />
       <item itemvalue="JUnit.RodeurTest.GIVEN_forceAgiliteEgale10_WHEN_rodeurAttaqueBasique_THEN_adversaireViePerd10" />
       <item itemvalue="JUnit.RodeurTest" />
+      <item itemvalue="JUnit.MageTest.GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MageTest" />
+        <item itemvalue="JUnit.MageTest.GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10" />
         <item itemvalue="JUnit.RodeurTest" />
         <item itemvalue="JUnit.RodeurTest.GIVEN_forceAgiliteEgale10_WHEN_rodeurAttaqueBasique_THEN_adversaireViePerd10" />
-        <item itemvalue="JUnit.MageTest" />
         <item itemvalue="JUnit.MageTest.GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus20" />
-        <item itemvalue="JUnit.GuerrierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -431,18 +426,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuerrierTest - 2018.12.10 at 21h 23m 40s.xml">
-      <configuration name="GuerrierTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest - 2018.12.10 at 21h 24m 23s.xml">
-      <configuration name="GuerrierTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest - 2018.12.10 at 21h 24m 48s.xml">
-      <configuration name="GuerrierTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest - 2018.12.10 at 21h 25m 03s.xml">
-      <configuration name="GuerrierTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MageTest - 2018.12.10 at 21h 34m 16s.xml">
       <configuration name="MageTest" configurationId="JUnit" />
     </history-entry>
@@ -460,6 +443,18 @@
     </history-entry>
     <history-entry file="RodeurTest - 2018.12.10 at 21h 40m 22s.xml">
       <configuration name="RodeurTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10 - 2018.12.10 at 21h 57m 03s.xml">
+      <configuration name="MageTest.GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10 - 2018.12.10 at 21h 58m 27s.xml">
+      <configuration name="MageTest.GIVEN_intelligenceEgale10_AND_vieEgale100_WHEN_mageAttaqueSpeciale_THEN_viePlus10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest - 2018.12.10 at 21h 59m 43s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest - 2018.12.10 at 22h 00m 00s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -622,27 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/test/RodeurTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -655,13 +629,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        <state relative-caret-position="697">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#167#168#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

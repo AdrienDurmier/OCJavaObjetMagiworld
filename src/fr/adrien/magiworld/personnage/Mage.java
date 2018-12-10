@@ -2,6 +2,8 @@ package fr.adrien.magiworld.personnage;
 
 public class Mage extends Personnage{
 
+    private final int VIE_DEPART = super.getVie();
+
     /**
      * Default contructor
      */
@@ -38,8 +40,25 @@ public class Mage extends Personnage{
      */
     @Override
     public void attaqueSpeciale(Personnage personnage){
-        int soin = super.getIntelligence();
-        super.setVie(personnage.getVie() + soin);
+        int intelligence = super.getIntelligence();
+        super.setVie(personnage.getVie() + controleVieMax(intelligence));
+    }
+
+    /**+
+     * Il ne peut pas avoir plus de vie qu’il n’en avait au départ
+     * @param intelligence
+     * @return
+     */
+    public int controleVieMax(int intelligence){
+        int soin = intelligence * 2;
+        int vieMax = super.getVie() + soin;
+
+        if (vieMax >= VIE_DEPART){
+            int difference = vieMax - VIE_DEPART;
+            soin -= difference;
+        }
+
+        return soin;
     }
 
 }
