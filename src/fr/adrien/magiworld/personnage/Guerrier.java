@@ -41,7 +41,7 @@ public class Guerrier extends Personnage{
         int degatCible = super.getForce() * 2;
         personnage.setVie(personnage.getVie() - degatCible);
         int degatSubit = super.getForce() / 2;
-        super.setVie(personnage.getVie() - degatSubit);
+        super.setVie(super.getVie() - degatSubit);
     }
 
 }
