@@ -70,18 +70,6 @@ public class GameImplement implements Game {
     }
 
     @Override
-    public void choixAttaque(String indicationJoueur, int choixJoueur, Personnage joueur, Personnage cible){
-        switch (choixJoueur) {
-            case 1:
-                joueur.attaqueBasique(cible);
-                break;
-            case 2:
-                joueur.attaqueSpeciale(cible);
-                break;
-        }
-    }
-
-    @Override
     public boolean checkTotaleCaracteristiques(int niveau, int force, int agilite, int intelligence){
         int totaleCaracteristique = force + agilite + intelligence;
         if(totaleCaracteristique > niveau) {
@@ -91,5 +79,67 @@ public class GameImplement implements Game {
             return true;
         }
      }
+
+
+    @Override
+    public void choixAttaque(String indicationJoueur, int choixJoueur, Personnage joueur, Personnage cible){
+        switch (choixJoueur) {
+            case 1:
+                this.controleAttaqueBasique(indicationJoueur, joueur, cible);
+                break;
+            case 2:
+                this.controleAttaqueSpeciale(indicationJoueur, joueur, cible);
+                break;
+        }
+    }
+
+    /**
+     * Permet d'afficher les détails d'une attaque basique
+     * @param indicationJoueur
+     * @param joueur
+     * @param cible
+     */
+    private void controleAttaqueBasique(String indicationJoueur, Personnage joueur, Personnage cible){
+        int degat = 0;
+        joueur.attaqueBasique(cible);
+        if (joueur instanceof Guerrier){
+            degat = joueur.getForce();
+        }else if(joueur instanceof Rodeur){
+            degat = joueur.getAgilite();
+        }else{
+            degat = joueur.getIntelligence();
+        }
+
+        System.out.println(indicationJoueur + " utilise " + joueur.getNomAttaqueBasique() + " et inflige " + degat
+                + " dommages.\n" + (indicationJoueur.equals("Joueur 1") ? "Joueur 2 " : "Joueur 1 ") + " perd " + degat + " points de vie\n");
+    }
+
+    /**
+     * Permet d'afficher les détails d'une attaque spéciale
+     * @param indicationJoueur
+     * @param joueur
+     * @param cible
+     */
+    private void controleAttaqueSpeciale(String indicationJoueur, Personnage joueur, Personnage cible){
+        int puissanceAttaque = 0;
+        if (joueur instanceof Guerrier){
+            joueur.attaqueSpeciale(cible);
+            puissanceAttaque = joueur.getForce();
+            System.out.println(indicationJoueur + " utilise " + joueur.getNomAttaqueSpeciale() + " et inflige " + puissanceAttaque * 2 + " dommages.");
+            System.out.println((indicationJoueur.equals("Joueur 1") ? "Joueur 2 " : "Joueur 1 ") + " perd " + puissanceAttaque * 2 + " point de vie.");
+            System.out.println(indicationJoueur + " perd " + puissanceAttaque / 2 + " point de vie.");
+        }
+        else if(joueur instanceof Rodeur){
+            joueur.attaqueSpeciale(joueur);
+            puissanceAttaque = joueur.getNiveau();
+            System.out.println(indicationJoueur + " utilise " + joueur.getNomAttaqueSpeciale() + " et gagne " + puissanceAttaque / 2 + " points d'agilité.");
+        }
+        else{
+            joueur.attaqueSpeciale(joueur);
+            puissanceAttaque = joueur.getIntelligence();
+            System.out.println(indicationJoueur + " utilise " + joueur.getNomAttaqueSpeciale() + " et gagne " + puissanceAttaque * 2 + " points de vie.");
+        }
+
+    }
 
 }

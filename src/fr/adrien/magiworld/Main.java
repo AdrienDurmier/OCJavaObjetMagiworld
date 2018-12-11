@@ -45,14 +45,18 @@ public class Main {
         do{
             // le joueur 1 commence.
             // Chaque joueur joue tour à tour et choisit entre son Attaque Basique ou son Attaque spéciale.
-            System.out.println("Joueur 1 (" + joueur1.getVie() + " Vitalité) veuillez choisir votre action (1 : Attaque Basique, 2 : Attaque Spéciale)");
-            choixJoueur = sc.nextInt();
+            do{
+                System.out.println("Joueur 1 (" + joueur1.getVie() + " Vitalité) veuillez choisir votre action (1 : Attaque Basique, 2 : Attaque Spéciale)");
+                choixJoueur = sc.nextInt();
+            }while(choixJoueur < 1 ||  choixJoueur > 2);
             game.choixAttaque("Joueur 1", choixJoueur, joueur1, joueur2);
 
             // Tour du joueur 2 s'il a toujours de la vitalité
             if(joueur2.getVie() > 0) {
-                System.out.println("Joueur 2 (" + joueur2.getVie() + " Vitalité) veuillez choisir votre action (1 : Attaque Basique, 2 : Attaque Spéciale)");
-                choixJoueur = sc.nextInt();
+                do{
+                    System.out.println("Joueur 2 (" + joueur2.getVie() + " Vitalité) veuillez choisir votre action (1 : Attaque Basique, 2 : Attaque Spéciale)");
+                    choixJoueur = sc.nextInt();
+                }while(choixJoueur < 1 ||  choixJoueur > 2);
                 game.choixAttaque("Joueur 2", choixJoueur, joueur2, joueur1);
             }
 
@@ -60,9 +64,9 @@ public class Main {
 
         // Affichage du joueur victorieux
         if (joueur1.getVie() > joueur2.getVie()){
-            System.out.println("Victoire du joueur 1");
+            System.out.println("Joueur 2 a perdu");
         }else{
-            System.out.println("Victoire du joueur 2");
+            System.out.println("Joueur 1 a perdu");
         }
 
         sc.close();

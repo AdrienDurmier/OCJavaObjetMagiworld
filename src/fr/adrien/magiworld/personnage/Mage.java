@@ -21,6 +21,8 @@ public class Mage extends Personnage{
      */
     public Mage(int niveau, int force, int agilite, int intelligence) {
         super(niveau, force, agilite, intelligence);
+        super.nomAttaqueBasique = "Boule de Feu";
+        super.nomAttaqueSpeciale = "Soin";
     }
 
     /**

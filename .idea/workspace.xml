@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9394d545-2aff-4bb2-bf89-a337563d5dba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/fr/adrien/magiworld/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/fr/adrien/magiworld/deroulement/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/fr/adrien/magiworld/deroulement/GameImplement.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/GameImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/GameImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +22,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+            <state relative-caret-position="374">
+              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +34,31 @@
       <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="322">
+              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+              <folding>
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1622#1623#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1781#1782#0" expanded="true" />
+                <element signature="e#1839#1840#0" expanded="true" />
+                <element signature="e#1879#1880#0" expanded="true" />
+                <element signature="e#1945#1946#0" expanded="true" />
+                <element signature="e#2003#2004#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Guerrier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -52,10 +75,32 @@
       <file leaf-file-name="GameImplement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/GameImplement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="72" column="108" lean-forward="true" selection-start-line="72" selection-start-column="108" selection-end-line="72" selection-end-column="108" />
+            <state relative-caret-position="218">
+              <caret line="134" column="153" selection-start-line="134" selection-start-column="153" selection-end-line="134" selection-end-column="153" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rodeur.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,6 +122,8 @@
       <find>choixPersonnage</find>
       <find>choixJoueur</find>
       <find>totaleCaracteristiques</find>
+      <find>nomAttaqueSpeciale</find>
+      <find>nomAttaqueBasique</find>
       <find>total</find>
     </findStrings>
   </component>
@@ -88,15 +135,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/fr/awesomecorp/adrien/Main.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console_2.snippet" />
-        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java" />
-        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/GuerrierTest.java" />
-        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/test/GuerrierTest.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/test/RodeurTest.java" />
-        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/Game.java" />
+        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java" />
+        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java" />
+        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java" />
+        <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/GameImplement.java" />
         <option value="$PROJECT_DIR$/src/fr/adrien/magiworld/Main.java" />
       </list>
@@ -438,7 +485,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45860568" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36601308" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -552,36 +599,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/test/MageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -596,20 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -617,10 +626,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Rodeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/personnage/Personnage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+          <folding>
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#1839#1840#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/deroulement/GameImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="72" column="108" lean-forward="true" selection-start-line="72" selection-start-column="108" selection-end-line="72" selection-end-column="108" />
+        <state relative-caret-position="218">
+          <caret line="134" column="153" selection-start-line="134" selection-start-column="153" selection-end-line="134" selection-end-column="153" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -629,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/adrien/magiworld/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        <state relative-caret-position="374">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -7,6 +7,8 @@ public abstract class Personnage {
     private int force;
     private int agilite;
     private int intelligence;
+    protected String nomAttaqueBasique;
+    protected String nomAttaqueSpeciale;
 
     /**
      * Default contructor
@@ -72,6 +74,22 @@ public abstract class Personnage {
 
     public void setIntelligence(int intelligence) {
         this.intelligence = intelligence;
+    }
+
+    public String getNomAttaqueBasique() {
+        return nomAttaqueBasique;
+    }
+
+    public void setNomAttaqueBasique(String nomAttaqueBasique) {
+        this.nomAttaqueBasique = nomAttaqueBasique;
+    }
+
+    public String getNomAttaqueSpeciale() {
+        return nomAttaqueSpeciale;
+    }
+
+    public void setNomAttaqueSpeciale(String nomAttaqueSpeciale) {
+        this.nomAttaqueSpeciale = nomAttaqueSpeciale;
     }
 
 }
