@@ -70,8 +70,20 @@ public class GameImplement implements Game {
     }
 
     @Override
-    public boolean totaleCaracteristiques(int niveau, int force, int agilite, int inteligence){
-        int totaleCaracteristique = force + agilite + inteligence;
+    public void choixAttaque(String indicationJoueur, int choixJoueur, Personnage joueur, Personnage cible){
+        switch (choixJoueur) {
+            case 1:
+                joueur.attaqueBasique(cible);
+                break;
+            case 2:
+                joueur.attaqueSpeciale(cible);
+                break;
+        }
+    }
+
+    @Override
+    public boolean checkTotaleCaracteristiques(int niveau, int force, int agilite, int intelligence){
+        int totaleCaracteristique = force + agilite + intelligence;
         if(totaleCaracteristique > niveau) {
             System.out.println("Attention le total force + agilité + intelligence doit être égal au niveau du joueur.");
             return false;

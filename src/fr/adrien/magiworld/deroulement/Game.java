@@ -26,13 +26,23 @@ public interface Game {
     public Personnage choixPersonnage(String indicationJoueur, int classe, int niveau, int force, int agilite, int intelligence);
 
     /**
+     * Choix de l'attaque du joueur parmi basique ou spéciale
+     *
+     * @param indicationJoueur
+     * @param choixJoueur
+     * @param joueur
+     * @param cible
+     */
+    public void choixAttaque(String indicationJoueur, int choixJoueur, Personnage joueur, Personnage cible);
+
+    /**
      *  Attention le total force + agilité + intelligence doit être égal au niveau du joueur.
      * @param niveau
      * @param force
      * @param agilite
-     * @param inteligence
+     * @param intelligence
      * @return
      */
-    public boolean totaleCaracteristiques(int niveau, int force, int agilite, int inteligence);
+    public boolean checkTotaleCaracteristiques(int niveau, int force, int agilite, int intelligence);
 
 }
